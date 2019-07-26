@@ -7,7 +7,7 @@ function detectIteratee(x, callback) {
     }, (10 - x) * 10);
 }
 
-describe.skip("detect", function () {
+describe("detect", function () {
 
     it('detect - truth 테스트를 통과한 첫번째 값만 즉시 반환한다.', function(done){
         async.detect([1,2,5], detectIteratee, function(err, results){

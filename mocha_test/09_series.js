@@ -2,7 +2,7 @@ var async = require('../lib');
 var expect = require('chai').expect;
 var assert = require('assert');
 
-describe.skip('series', function() {
+describe('series', function() {
     it('series', function(done) {
         var call_order = [];
         async.series([

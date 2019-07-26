@@ -2,7 +2,7 @@ var async = require('../lib');
 var expect = require('chai').expect;
 var assert = require('assert');
 
-describe.skip("map", function() {
+describe("map", function() {
 
     function mapIteratee(call_order, x, callback) {
         setTimeout(function() {

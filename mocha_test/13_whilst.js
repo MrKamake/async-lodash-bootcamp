@@ -2,7 +2,7 @@ var async = require('../lib');
 var expect = require('chai').expect;
 var count = 0;
 
-describe.skip("whilst", function () {
+describe("whilst", function () {
     this.timeout(10000);
 
     it('basics', function(done){
